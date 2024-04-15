@@ -1,0 +1,22 @@
+--Fills department and checkinoffice tables
+INSERT INTO CheckInOffice (Building, RoomNumber) VALUES
+	('Main Hospital', '1010'),
+	('Main Hospital', '2004'),
+	('West plaza', 'A302'),
+	('Arts Center', '103'),
+	('Emergency Room', '101'),
+	('Main Hospital', '601'),
+	('West Plaza', 'A102'),
+	('Arts Center', 'B208');
+
+INSERT INTO Department (Abbreviation, Name, CheckInOfficeID) VALUES
+	('MedSurg', 'Medical Surgical', 6),
+	('ED', 'Emergency Room', 5),
+	('LD', 'Labor and delivery', 3),
+	('NICU', 'Neonatal Intensive Care', 7),
+	('ICU', 'Intensive Care', 1),
+	('NEUR', 'Nuerology', 4),
+	('Ortho', 'Orthopedics', 8),
+	('OR', 'Operating Room', 2);
+
+
