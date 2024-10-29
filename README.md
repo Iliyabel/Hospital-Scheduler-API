@@ -1,6 +1,6 @@
 ## Project Schema
 
-
+![Project schema photo](Schema.png)
 
 ## Set up this project locally
 1. Clone the repo
