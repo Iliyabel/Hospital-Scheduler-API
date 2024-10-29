@@ -1,3 +1,7 @@
+## Project Schema
+
+
+
 ## Set up this project locally
 1. Clone the repo
 ```
